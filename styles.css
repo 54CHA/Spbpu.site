@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    color: rgb(222, 245, 226);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(49, 124, 99);
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.text1{
+    color: rgb(37, 136, 90);
+}
+
+#table{
+    color: rgb(6, 51, 47);
+}
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link{
+    color: rgb(61, 175, 141);
+}
+
+a:visited{
+    color: rgb(61, 175, 141);
+}
+
+a:hover{
+    color: rgb(3, 29, 32);
+}
+
+body{
+    background-color: rgb(245, 245, 245);
+}
+
+/* table{
+    background-color: skyblue;
+    padding: 5px;
+} */

@@ -23,7 +23,7 @@ h1{
 }
 
 #table{
-    color: rgb(6, 51, 47);
+    max-width: 100%; overflow: auto;
 }
 
 main{

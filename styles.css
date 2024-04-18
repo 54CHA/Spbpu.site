@@ -60,7 +60,7 @@ tr{
 }
 
 table{
-    min-width: 500px;
+    min-width: 100px;
 }
 th{
 color: rgb(36, 107, 107);

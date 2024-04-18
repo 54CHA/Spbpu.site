@@ -24,6 +24,7 @@ h1{
 
 #table{
     max-width: 100%; overflow: auto;
+
 }
 
 main{
@@ -58,6 +59,9 @@ tr{
     color: rgb(26, 110, 110);
 }
 
+table{
+    min-width: 500px;
+}
 th{
 color: rgb(36, 107, 107);
 }

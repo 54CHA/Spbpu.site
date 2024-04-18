@@ -54,13 +54,16 @@ body{
     border-radius: 15px;
     border-color: rgb(12, 74, 78);
     padding-right: 650px;
-    max-width: 100px;
+    max-width: 60px;
 }
 
 tr{
     color: rgb(26, 110, 110);
 }
 
+table{ 
+    padding-left: 2px;
+}
 
 th{
 color: rgb(36, 107, 107);

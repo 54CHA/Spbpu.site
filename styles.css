@@ -53,19 +53,20 @@ body{
     border-style: dashed;
     border-radius: 15px;
     border-color: rgb(12, 74, 78);
+    padding-right: 650px;
+    max-width: 100px;
 }
 
 tr{
     color: rgb(26, 110, 110);
 }
 
-table{
-    min-width: 100px;
-}
+
 th{
 color: rgb(36, 107, 107);
 }
 #session{
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     padding: 5px;
+    padding-left: 100px;
 }

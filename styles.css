@@ -10,16 +10,32 @@ h1 {
 .text1 {
   color: rgb(37, 136, 90);
   text-align: center;
+  padding-left: 30px;
+  
+}
+.text3 {
+  color: rgb(37, 136, 90);
+  text-align: center;
 }
 
 .text2 {
   width: 270px;
   padding: 5px;
   background-color: rgb(220, 217, 226);
-  border-radius: 15px;
-  border-style: dashed;
-  border-color: rgb(12, 74, 78);
+  border-radius: 30px;
+  /* border-style: dashed;
+  border-color: rgb(12, 74, 78); */
+  margin-top: 150px;
   /* padding: 1px; */
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-basis: auto;
+  width: auto;
+  height: auto;
+  flex-wrap: nowrap;
 }
 
 #table {
@@ -32,16 +48,16 @@ main {
 }
 
 a:link {
-  color: rgb(61, 175, 141);
-  /* text-decoration: none; */
+  color: rgb(50, 129, 105);
+  text-decoration: none;
 }
 
 a:visited {
-  color: rgb(61, 175, 141);
+  color: rgb(50, 129, 105);
 }
 
 a:hover {
-  color: rgb(44, 94, 100);
+  color: rgb(44, 65, 116);
 }
 
 body {
@@ -49,16 +65,20 @@ body {
   background-image: url("bg1.jpg") no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: rgb(25, 23, 23);
 }
 
 .tb {
   background-color: rgb(220, 217, 226);
   padding-bottom: 20px;
-  border-style: dashed;
-  border-radius: 15px;
-  border-color: rgb(12, 74, 78);
+  /* border-style: dashed; */
+  border-radius: 30px;
+  /* border-color: rgb(12, 74, 78); */
   padding-right: 670px;
   max-width: 70px;
+  padding-top: 2px;
+  padding-left: 40px;
+  padding-bottom: 30px;
 }
 
 tr {
@@ -89,19 +109,38 @@ th {
   justify-content: space-around;
   align-items: center;
   z-index: 100;
+  box-shadow: 0px 1px 15px 1px rgb(20, 20, 48);
 }
 
-.logo {
-  font-size: 32px;
-  color: aliceblue;
-  text-decoration: none;
-  font-weight: 700;
+li {
+  color: rgb(15, 70, 73);
+}
+
+img{
+  width: 70px;
 }
 
 .navbar a {
-  font-size: 18px;
+  font-size: 20px;
   color: #ffffff;
   font-weight: 500;
   text-decoration: none;
-  margin-left: 40px;
+  margin-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a:hover{
+  border-style: 1px solid;
+  color: black;
+}
+
+#footer{
+  display: absolute;
+  bottom: 0;
+  left: 0;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  width: auto;
+  text-align: center;
+  color: rgb(99, 111, 128);
 }

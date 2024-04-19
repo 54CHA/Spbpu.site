@@ -1,75 +1,107 @@
-h1{
-    text-align: center;
-    color: rgb(222, 245, 226);
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(49, 124, 99);
-    padding: 1em;
-    border-radius: 15px;
+h1 {
+  text-align: center;
+  color: rgb(222, 245, 226);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(49, 124, 99);
+  padding: 1em;
+  border-radius: 15px;
 }
 
-.text1{
-    color: rgb(37, 136, 90);
-    text-align: center;
+.text1 {
+  color: rgb(37, 136, 90);
+  text-align: center;
 }
 
-.text2{
-    width: 270px;
-    padding: 5px;
-    background-color: rgb(220, 217, 226);
-    border-radius: 15px;
-    border-style: dashed;
-    border-color: rgb(12, 74, 78);
-    /* padding: 1px; */
+.text2 {
+  width: 270px;
+  padding: 5px;
+  background-color: rgb(220, 217, 226);
+  border-radius: 15px;
+  border-style: dashed;
+  border-color: rgb(12, 74, 78);
+  /* padding: 1px; */
 }
 
-#table{
-    max-width: 100%; overflow: auto;
-
+#table {
+  max-width: 100%;
+  overflow: auto;
 }
 
-main{
-    font-family: Arial, Helvetica, sans-serif;
+main {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-a:link{
-    color: rgb(61, 175, 141);
+a:link {
+  color: rgb(61, 175, 141);
+  /* text-decoration: none; */
 }
 
-a:visited{
-    color: rgb(61, 175, 141);
+a:visited {
+  color: rgb(61, 175, 141);
 }
 
-a:hover{
-    color: rgb(3, 29, 32);
+a:hover {
+  color: rgb(44, 94, 100);
 }
 
-body{
-    background-color: rgb(245, 245, 245);
+body {
+  /* background-color: rgb(245, 245, 245); */
+  background-image: url("bg1.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.tb{
-    background-color: rgb(220, 217, 226);
-    padding-bottom: 20px;
-    border-style: dashed;
-    border-radius: 15px;
-    border-color: rgb(12, 74, 78);
-    padding-right: 670px;
-    max-width: 70px;
+.tb {
+  background-color: rgb(220, 217, 226);
+  padding-bottom: 20px;
+  border-style: dashed;
+  border-radius: 15px;
+  border-color: rgb(12, 74, 78);
+  padding-right: 670px;
+  max-width: 70px;
 }
 
-tr{
-    color: rgb(26, 110, 110);
+tr {
+  color: rgb(26, 110, 110);
 }
 
-table{ 
-    padding-left: 2px;
+table {
+  padding-left: 2px;
 }
 
-th{
-color: rgb(36, 107, 107);
+th {
+  color: rgb(36, 107, 107);
 }
-#session{
-    /* background-color: rgb(255, 255, 255); */
-    padding: 5px;
-    padding-left: 100px;
+#session {
+  /* background-color: rgb(255, 255, 255); */
+  padding: 5px;
+  padding-left: 100px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: rgb(65, 149, 132);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 32px;
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.navbar a {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
 }

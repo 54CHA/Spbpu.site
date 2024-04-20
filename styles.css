@@ -1,17 +1,49 @@
 h1 {
-  text-align: center;
   color: rgb(222, 245, 226);
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(49, 124, 99);
-  padding: 1em;
+  padding: 45px;
+  text-align: center;
+  font-size: 40px;
+}
+.socials {
+  margin-left: 35%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(207, 221, 232);
+  margin-bottom: 80px;
+  font-size: 20px;
+}
+@media all and (max-width: 600px) {
+  .socials {
+    font-size: 15px;
+    margin-left: 20%;
+  }
+}
+
+.contactainer {
   border-radius: 15px;
+  border-style: solid;
+  border-color: rgb(67, 72, 72);
+  margin-top: 200px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact1 {
+  color: rgb(99, 200, 166);
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-bottom: 20px;
+  font-size: 22px;
+  margin: 10px;
 }
 
 .text1 {
   color: rgb(37, 136, 90);
   text-align: center;
   padding-left: 30px;
-  
 }
 .text3 {
   color: rgb(37, 136, 90);
@@ -23,13 +55,10 @@ h1 {
   padding: 5px;
   background-color: rgb(220, 217, 226);
   border-radius: 30px;
-  /* border-style: dashed;
-  border-color: rgb(12, 74, 78); */
   margin-top: 150px;
-  /* padding: 1px; */
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: row;
   flex-basis: auto;
@@ -62,9 +91,9 @@ a:hover {
 
 body {
   /* background-color: rgb(245, 245, 245); */
-  background-image: url("bg1.jpg") no-repeat;
+  /* background-image: url("bg1.jpg") no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
   background-color: rgb(25, 23, 23);
 }
 
@@ -116,7 +145,7 @@ li {
   color: rgb(15, 70, 73);
 }
 
-img{
+img {
   width: 70px;
 }
 
@@ -129,16 +158,16 @@ img{
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar a:hover{
+.navbar a:hover {
   border-style: 1px solid;
   color: black;
 }
 
-#footer{
+#footer {
   display: absolute;
   bottom: 0;
   left: 0;
-  margin-top: 70px;
+  margin-top: 400px;
   margin-bottom: 30px;
   width: auto;
   text-align: center;

@@ -163,6 +163,13 @@ img {
   color: black;
 }
 
+@media all and (max-width: 600px) {
+  .navbar a {
+    font-size: 15px;
+    margin: 5px;
+  }
+}
+
 #footer {
   display: absolute;
   bottom: 0;

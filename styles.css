@@ -171,12 +171,10 @@ img {
 }
 
 #footer {
-  display: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
-  margin-top: 400px;
-  margin-bottom: 30px;
-  width: auto;
+  width: 100%;
   text-align: center;
   color: rgb(99, 111, 128);
 }

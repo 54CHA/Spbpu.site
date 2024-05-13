@@ -104,20 +104,23 @@ body {
   /* border-style: dashed; */
   border-radius: 30px;
   /* border-color: rgb(12, 74, 78); */
-  padding-right: 670px;
+  padding-right: 730px;
   max-width: 70px;
   padding-top: 2px;
-  padding-left: 40px;
   padding-bottom: 30px;
 }
 @media all and (max-width: 790px) {
   .tb {
-    padding-right: 750px;
+    padding-right: 800px;
   }
 }
 
+td {
+  padding: 5px;
+}
 tr {
   color: rgb(26, 110, 110);
+  padding: 5px;
 }
 
 table {

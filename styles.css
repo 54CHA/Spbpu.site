@@ -20,6 +20,21 @@ h1 {
   }
 }
 
+.box1{
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(112, 115, 124);
+}
+
+.boxes{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2%;
+  justify-content: center;
+}
+
 .contactainer {
   border-radius: 15px;
   border-style: solid;
@@ -29,6 +44,34 @@ h1 {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* .elem {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 10%;
+  justify-content: center;
+}
+
+@media all and (max-width: 1060px) {
+  .elem {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media all and (max-width: 844px) {
+  .elem {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+} */
 
 .contact1 {
   color: rgb(99, 200, 166);
@@ -51,9 +94,9 @@ h1 {
 }
 
 .text2 {
-  width: 270px;
+  width: 65%;
   padding: 5px;
-  background-color: rgb(220, 217, 226);
+  background-color: rgb(224, 228, 238);
   border-radius: 30px;
   margin-top: 150px;
 }
@@ -69,8 +112,7 @@ h1 {
 
 #table {
   max-width: 100%;
-  overflow: auto;
-  text-align: center;
+   text-align: center;
 }
 
 main {
@@ -98,17 +140,7 @@ body {
   background-color: rgb(25, 23, 23);
 }
 
-.tb {
-  background-color: rgb(220, 217, 226);
-  padding-bottom: 20px;
-  /* border-style: dashed; */
-  border-radius: 30px;
-  /* border-color: rgb(12, 74, 78); */
-  padding-right: 730px;
-  max-width: 70px;
-  padding-top: 2px;
-  padding-bottom: 30px;
-}
+
 @media all and (max-width: 790px) {
   .tb {
     padding-right: 800px;
@@ -130,11 +162,7 @@ table {
 th {
   color: rgb(36, 107, 107);
 }
-#session {
-  /* background-color: rgb(255, 255, 255); */
-  padding: 5px;
-  padding-left: 100px;
-}
+
 
 .header {
   position: fixed;
@@ -183,7 +211,7 @@ img {
   display: absolute;
   bottom: 0;
   left: 0;
-  margin-top: 400px;
+  margin-top: 200px;
   margin-bottom: 30px;
   width: auto;
   text-align: center;
